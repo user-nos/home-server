@@ -1,0 +1,13 @@
+services:
+  it-tools:
+    image: 'corentinth/it-tools:latest'
+    container_name: it-tools
+    # No need to expose ports if NPM is creating a domain name for it
+    # ports:
+    #   - '8080:80'  # Maps port 80 inside the container to port 8080 on the host.
+    restart: unless-stopped  # Ensures the container restarts unless it is explicitly stopped.
+
+networks:
+  default:
+    external: true
+    name: npm
