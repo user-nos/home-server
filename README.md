@@ -24,3 +24,4 @@ See all steps and procedures to make the homeserver i currently have running in 
   - [Frigate : Local NVR](https://github.com/user-nos/HomeServer/wiki/Setting-up-services#frigate--local-nvr)
   - [Speedtest Tracker : Internet Speed Tracker](https://github.com/user-nos/HomeServer/wiki/Setting-up-services#speedtest-tracker--internet-speed-tracker)
   - [YTPTube : Media Downloader](https://github.com/user-nos/HomeServer/wiki/Setting-up-services#ytptube--media-downloader)
+  - [IT-Tools : IT Tools Kit](https://github.com/user-nos/home-server/wiki/Setting-up-services#it-tools-it-tools-kit)
