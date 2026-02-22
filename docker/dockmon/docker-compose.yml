@@ -1,0 +1,25 @@
+services:
+  dockmon:
+    image: darthnorse/dockmon:latest
+    container_name: dockmon
+    restart: unless-stopped
+    # No need to expose ports if NPM is creating a domain name for it
+    # ports:
+    #   - "8001:80"
+    environment:
+      - TZ=Indian/Mauritius
+      - REVERSE_PROXY_MODE=true
+      - DOCKMON_CORS_ORIGINS=https://dockmon.example.org
+    volumes:
+      - ./data:/app/data
+      - /var/run/docker.sock:/var/run/docker.sock
+    healthcheck:
+      test: ["CMD", "curl", "-k", "-f", "https://dockmon.example.org/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+networks:
+  default:
+    external: true
+    name: npm
