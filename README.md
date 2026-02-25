@@ -5,7 +5,9 @@ This repo contains what i have in/on my home server (steps and docker-compose fi
 The home server is using Ubuntu server as its base and is utilizing docker for creating and spinning up services.
 
 ***
-See all steps and procedures to make the homeserver i currently have running in the Wiki section of this repo or click [here](https://github.com/user-nos/Home-Server/wiki).
+See all steps and procedures to make the homeserver i currently have running in the Wiki section of this repo or click [here](https://github.com/user-nos/Home-Server/wiki). <br/><br/>
+**Note**: I do not have all the services listed running, I have documented all the services that i did setup and use at some point. But new services keep releasing that are better in terms of performance and/or UI, so new services are bound to get added and eventually older ones will get retired. <br/><br/>
+A list of all my currently running services will be listed also.
 
 # Table of Contents
 - [Set up HomeServer first](https://github.com/user-nos/home-server/wiki/Set-up-HomeServer)
@@ -28,3 +30,20 @@ See all steps and procedures to make the homeserver i currently have running in 
   - [Ntfy: Self-hosted Notifications service](https://github.com/user-nos/home-server/wiki/Setting-up-services#ntfy-self-hosted-notifications-service)
   - [Apprise: Centralized Notifications manager/api](https://github.com/user-nos/home-server/wiki/Setting-up-services#apprise-centralized-notifications-managerapi)
   - [Dockmon: Docker Manager](https://github.com/user-nos/home-server/wiki/Setting-up-services#dockmon-docker-manager)
+  - [Termix: SSH Server Manager](https://github.com/user-nos/home-server/wiki/Setting-up-services#termix-ssh-server-manager)
+
+# Running Services
+- Samba
+- NPM
+- Jellyfin
+- QBitttorent
+- Glance
+- Beszel
+- Frigate
+- Speedtest Tracker
+- YTPTube
+- IT-Tools
+- Ntfy
+- Apprise
+- Dockmon
+- Termix
