@@ -10,7 +10,7 @@ services:
       - ./beszel_data:/beszel_data
       - ./beszel_socket:/beszel_socket
     environment:
-      - APP_URL=https://beszel.optinos.duckdns.org
+      - APP_URL=https://beszel.example.org
 
   beszel-agent:
     image: henrygd/beszel-agent:latest
@@ -23,7 +23,7 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock:ro
     environment:
       LISTEN: /beszel_socket/beszel.sock
-      HUB_URL: https://beszel.optinos.duckdns.org
+      HUB_URL: https://beszel.example.org
       TOKEN: <token>
       KEY: "<key>"
 
