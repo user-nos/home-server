@@ -1,0 +1,64 @@
+- type: monitor
+  cache: 1m
+  title: Services
+  sites:
+    - title: ${HS_ANCHOR_NAME}
+      url: ${HS_ANCHOR_URL}
+      icon: ${HS_ANCHOR_ICON}
+    - title: ${HS_APPRISE_NAME}
+      url: ${HS_APPRISE_URL}
+      icon: ${HS_APPRISE_ICON}
+    - title: ${HS_BESZEL_NAME}
+      url: ${HS_BESZEL_URL}
+      icon: ${HS_BESZEL_ICON}
+    - title: ${HS_DOCKMON_NAME}
+      url: ${HS_DOCKMON_URL}
+      icon: ${HS_DOCKMON_ICON}
+    # - title: ${HS_DOZZLE_NAME}
+    #   url: ${HS_DOZZLE_URL}
+    #   icon: ${HS_DOZZLE_ICON}
+    # - title: ${HS_FILEBROWSER_NAME}
+    #   url: ${HS_FILEBROWSER_URL}
+    #   icon: ${HS_FILEBROWSER_ICON}
+    # - title: ${HS_FRIGATE_NAME}
+    #   url: ${HS_FRIGATE_URL}
+    #   icon: ${HS_FRIGATE_ICON}
+    - title: ${HS_GLANCE_NAME}
+      url: ${HS_GLANCE_URL}
+      icon: ${HS_GLANCE_ICON}
+    - title: ${HS_IMMICH_NAME}
+      url: ${HS_IMMICH_URL}
+      icon: ${HS_IMMICH_ICON}
+    - title: ${HS_ITTOOLS_NAME}
+      url: ${HS_ITTOOLS_URL}
+      icon: ${HS_ITTOOLS_ICON}
+    - title: ${HS_JELLYFIN_NAME}
+      url: ${HS_JELLYFIN_URL}
+      icon: ${HS_JELLYFIN_ICON}
+    # - title: ${HS_MEMOS_NAME}
+    #   url: ${HS_MEMOS_URL}
+    #   icon: ${HS_MEMOS_ICON}
+    - title: ${HS_NPM_NAME}
+      url: ${HS_NPM_URL}
+      check-url: ${HS_NPM_CHECKURL}
+      icon: ${HS_NPM_ICON}
+    - title: ${HS_NTFY_NAME}
+      url: ${HS_NTFY_URL}
+      icon: ${HS_NTFY_ICON}
+    - title: ${HS_QBITTORRENT_NAME}
+      url: ${HS_QBITTORRENT_URL}
+      icon: ${HS_QBITTORRENT_ICON}
+    - title: ${HS_SPEEDTEST_NAME}
+      url: ${HS_SPEEDTEST_URL}
+      icon: ${HS_SPEEDTEST_ICON}
+    - title: ${HS_TERMIX_NAME}
+      url: ${HS_TERMIX_URL}
+      icon: ${HS_TERMIX_ICON}
+    # - title: ${HS_UPTIMEKUMA_NAME}
+    #   url: ${HS_UPTIMEKUMA_URL}
+    #   icon: ${HS_UPTIMEKUMA_ICON}
+    - title: ${HS_YTPTUBE_NAME}
+      url: ${HS_YTPTUBE_URL}
+      icon: ${HS_YTPTUBE_ICON}
+      alt-status-codes:
+        - 401

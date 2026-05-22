@@ -1,0 +1,132 @@
+- type: docker-containers
+  containers:
+    ${HS_ANCHOR_CONTAINER}:
+      name: ${HS_ANCHOR_NAME}
+      description: ${HS_ANCHOR_DESC}
+      url: ${HS_ANCHOR_URL}
+      icon: ${HS_ANCHOR_ICON}
+      hide: false
+    ${HS_APPRISE_CONTAINER}:
+      name: ${HS_APPRISE_NAME}
+      description: ${HS_APPRISE_DESC}
+      url: ${HS_APPRISE_URL}
+      icon: ${HS_APPRISE_ICON}
+      hide: false
+    ${HS_BESZEL_CONTAINER}:
+      name: ${HS_BESZEL_NAME}
+      description: ${HS_BESZEL_DESC}
+      url: ${HS_BESZEL_URL}
+      icon: ${HS_BESZEL_ICON}
+      hide: false
+    beszel-agent:
+      name: Beszel Agent
+      description: Beszel Agent
+      hide: false
+    ${HS_DOCKMON_CONTAINER}:
+      name: ${HS_DOCKMON_NAME}
+      description: ${HS_DOCKMON_DESC}
+      url: ${HS_DOCKMON_URL}
+      icon: ${HS_DOCKMON_ICON}
+      hide: false
+    # ${HS_DOZZLE_CONTAINER}:
+    #   name: ${HS_DOZZLE_NAME}
+    #   description: ${HS_DOZZLE_DESC}
+    #   url: ${HS_DOZZLE_URL}
+    #   icon: ${HS_DOZZLE_ICON}
+    #   hide: false
+    # ${HS_FILEBROWSER_CONTAINER}:
+    #   name: ${HS_FILEBROWSER_NAME}
+    #   description: ${HS_FILEBROWSER_DESC}
+    #   url: ${HS_FILEBROWSER_URL}
+    #   icon: ${HS_FILEBROWSER_ICON}
+    #   hide: false
+    # ${HS_FRIGATE_CONTAINER}:
+    #   name: ${HS_FRIGATE_NAME}
+    #   description: ${HS_FRIGATE_DESC}
+    #   url: ${HS_FRIGATE_URL}
+    #   icon: ${HS_FRIGATE_ICON}
+    #   hide: false
+    ${HS_GLANCE_CONTAINER}:
+      name: ${HS_GLANCE_NAME}
+      description: ${HS_GLANCE_DESC}
+      url: ${HS_GLANCE_URL}
+      icon: ${HS_GLANCE_ICON}
+      hide: false
+    ${HS_IMMICH_CONTAINER}:
+      name: ${HS_IMMICH_NAME}
+      description: ${HS_IMMICH_DESC}
+      url: ${HS_IMMICH_URL}
+      icon: ${HS_IMMICH_ICON}
+      hide: false
+    ${HS_IMMICH_DB_CONTAINER}:
+      name: ${HS_IMMICH_DB_NAME}
+      description: ${HS_IMMICH_DB_DESC}
+      url: ${HS_IMMICH_URL}
+      icon: ${HS_IMMICH_ICON}
+      hide: false
+    ${HS_IMMICH_ML_CONTAINER}:
+      name: ${HS_IMMICH_ML_NAME}
+      description: ${HS_IMMICH_ML_DESC}
+      url: ${HS_IMMICH_URL}
+      icon: ${HS_IMMICH_ICON}
+      hide: false
+    ${HS_IMMICH_RD_CONTAINER}:
+      name: ${HS_IMMICH_RD_NAME}
+      description: ${HS_IMMICH_RD_DESC}
+      url: ${HS_IMMICH_URL}
+      icon: ${HS_IMMICH_ICON}
+      hide: false
+    ${HS_ITTOOLS_CONTAINER}:
+      name: ${HS_ITTOOLS_NAME}
+      description: ${HS_ITTOOLS_DESC}
+      url: ${HS_ITTOOLS_URL}
+      icon: ${HS_ITTOOLS_ICON}
+      hide: false
+    ${HS_JELLYFIN_CONTAINER}:
+      name: ${HS_JELLYFIN_NAME}
+      description: ${HS_JELLYFIN_DESC}
+      url: ${HS_JELLYFIN_URL}
+      icon: ${HS_JELLYFIN_ICON}
+      hide: false
+    # ${HS_MEMOS_CONTAINER}:
+    #   name: ${HS_MEMOS_NAME}
+    #   description: ${HS_MEMOS_DESC}
+    #   url: ${HS_MEMOS_URL}
+    #   icon: ${HS_MEMOS_ICON}
+    #   hide: false
+    ${HS_NPM_CONTAINER}:
+      name: ${HS_NPM_NAME}
+      description: ${HS_NPM_DESC}
+      url: ${HS_NPM_URL}
+      icon: ${HS_NPM_ICON}
+      hide: false
+    ${HS_NTFY_CONTAINER}:
+      name: ${HS_NTFY_NAME}
+      description: ${HS_NTFY_DESC}
+      url: ${HS_NTFY_URL}
+      icon: ${HS_NTFY_ICON}
+      hide: false
+    ${HS_SPEEDTEST_CONTAINER}:
+      name: ${HS_SPEEDTEST_NAME}
+      description: ${HS_SPEEDTEST_DESC}
+      url: ${HS_SPEEDTEST_URL}
+      icon: ${HS_SPEEDTEST_ICON}
+      hide: false
+    ${HS_TERMIX_CONTAINER}:
+      name: ${HS_TERMIX_NAME}
+      description: ${HS_TERMIX_DESC}
+      url: ${HS_TERMIX_URL}
+      icon: ${HS_TERMIX_ICON}
+      hide: false
+    # ${HS_UPTIMEKUMA_CONTAINER}:
+    #   name: ${HS_UPTIMEKUMA_NAME}
+    #   description: ${HS_UPTIMEKUMA_DESC}
+    #   url: ${HS_UPTIMEKUMA_URL}
+    #   icon: ${HS_UPTIMEKUMA_ICON}
+    #   hide: false  
+    # ${HS_WATCHTOWER_CONTAINER}:
+    #   name: ${HS_WATCHTOWER_NAME}
+    #   description: ${HS_WATCHTOWER_DESC}
+    #   url: ${HS_WATCHTOWER_URL}
+    #   icon: ${HS_WATCHTOWER_ICON}
+    #   hide: false
