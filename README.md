@@ -32,6 +32,7 @@ A list of all my currently running services will be listed also.
   - [Dockmon: Docker Manager](https://github.com/user-nos/home-server/wiki/Setting-up-services#dockmon-docker-manager)
   - [Termix: SSH Server Manager](https://github.com/user-nos/home-server/wiki/Setting-up-services#termix-ssh-server-manager)
   - [Anchor: An offiline first self hostable note taking application](https://github.com/user-nos/home-server/wiki/Setting-up-services#anchor-an-offline-first-self-hostable-note-taking-application)
+  - [Immich: Photo and Video Manager](https://github.com/user-nos/home-server/wiki/Setting-up-services#immich-photo-and-video-manager)
 
 # Running Services
 - Samba
