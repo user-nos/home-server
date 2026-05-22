@@ -1,0 +1,202 @@
+- type: bookmarks
+  groups:
+    - title: General
+      color: 10 70 50
+      links:
+        - title: Google
+          url: https://www.google.com/
+          icon: si:google
+        - title: Github
+          url: https://github.com/
+          icon: si:github
+        - title: Youtube
+          url: https://www.youtube.com/
+          icon: si:youtube
+        - title: ChatGPT
+          url: https://chat.openai.com/
+          icon: di:chatgpt
+        - title: SBM online
+          url: https://ebmu.sbmgroup.mu
+          icon: si:semanticui
+        - title: GSM Arena
+          url: https://gsmarena.com
+          icon: si:gsmarenadotcom
+        - title: Bitwarden Web Vault
+          url: https://vault.bitwarden.com/#/login
+          icon: si:bitwarden
+        - title: Paypal
+          url: https://paypal.com/mu/home
+          icon: si:paypal
+        - title: WinUtil
+          url: https://winutil.christitus.com
+          icon: si:webgpu
+        - title: DeepL
+          url: https://deepl.com
+          icon: si:deepl
+    - title: Anime
+      color: 100 35 70
+      links:
+        - title: Myanimelist.net
+          url: https://myanimelist.net/animelist/<username>?order=14&status=1
+          icon: si:myanimelist
+        - title: AnimeKai.to
+          url: https://anikai.to/home
+          icon: si:animedotjs
+        - title: Anikototv.to
+          url: https://anikototv.to/home
+          icon: si:animedotjs
+        - title: Everythingmoe.com
+          url: https://everythingmoe.com/
+          icon: si:everydotorg
+        - title: Kayoanime.com
+          url: https://kayoanime.com
+          icon: si:kaniko
+    - title: Social
+      color: 200 50 50
+      links:
+        - title: Facebook
+          url: https://www.facebook.com/
+          icon: si:facebook
+        - title: X
+          url: https://x.com
+          icon: si:x
+        - title: Fansly
+          url: https://fansly.com
+          icon: si:fandango
+        - title: Fantia
+          url: https://fantia.jp
+          icon: si:fanfou
+        - title: Discord
+          url: https://discord.com/channels/@me
+          icon: si:discord
+    - title: Wallpapers
+      color: 25 40 55
+      links:
+        - title: Wallhaven
+          url: https://wallhaven.cc/
+          icon: si:wish
+        - title: Pixiv
+          url: https://pixiv.net/en
+          icon: si:pixiv
+        - title: Deviantart
+          url: https://deviantart.com/
+          icon: si:deviantart
+    - title: Online Shopping
+      color: 225 75 55
+      links:
+        - title: Aliexpress
+          url: https://aliexpress.com/
+          icon: si:aliexpress
+        - title: Amazon.com
+          url: https://amazon.com/
+          icon: di:amazon
+        - title: Amazon.fr
+          url: https://amazon.fr/
+          icon: di:amazon
+        - title: Amazon.co.uk
+          url: https://amazon.co.uk/
+          icon: di:amazon
+        - title: Reichelt.com
+          url: https://www.reichelt.com/mu/en/
+          icon: si:remark
+        - title: GlobalDucan.com
+          url: https://my.globalducan.com/home
+          icon: si:dash
+        - title: Allsport
+          url: https://allsport.mu/
+          icon: si:aframe
+        - title: Decathlon
+          url: https://decathlon.mu/
+          icon: si:dash
+        - title: 101-multimedia
+          url: https://101-multimedia.com/
+          icon: si:1and1
+        - title: Fastclick
+          url: https://fastclick.mu/
+          icon: si:fastapi
+        - title: NexForge
+          url: https://nexforge.shop/
+          icon: si:nx
+        - title: Shenzhenaudio
+          url: https://shenzhenaudio.com/
+          icon: si:audacity
+        - title: Satechi
+          url: https://satechi.net
+          icon: si:sanic
+        - title: GMKTec
+          url: https://www.gmktec.com/
+          icon: si:gcore
+    - title: Mails
+      color: 190 75 55
+      links:
+        - title: Gmail
+          url: https://mail.google.com/mail/u/0/
+          icon: si:gmail
+        - title: Proton
+          url: https://account.proton.me/login
+          icon: si:protonmail
+        - title: Yahoo
+          url: https://login.yahoo.com/manage_account?pspid=159600001&activity=mail-direct&.lang=en-US&.intl=us&src=ym
+          icon: di:yahoo
+    - title: Torrenting
+      color: 254 35 70
+      links:
+        - title: YTS
+          url: https://yts.bz
+          icon: di:yts
+        - title: EXT.to
+          url: https://ext.to/
+          icon: si:express
+        - title: 1337x.to
+          url: https://1337x.to
+          icon: si:mxlinux
+        - title: Nyaa.si
+          url: https://nyaa.si
+          icon: si:neovim
+        - title: Bitsearch.to
+          url: https://bitsearch.to
+          icon: si:bit
+        - title: My-subs.co
+          url: https://my-subs.co
+          icon: si:surfshark
+    - title: Others
+      links:
+        - title: Internet Usage
+          url: https://internetaccount.myt.mu/#/auth/login
+          icon: si:abdownloadmanager
+        - title: ATK Hub beta
+          url: https://hub.atk.pro
+          icon: si:arkecosystem
+        - title: Elekmaster Hub
+          url: https://key.eleksmaker.com
+          icon: si:erpnext
+    - title: Wuthering Waves
+      color: 360 75 30
+      links:
+        - title: Prydwen.gg
+          url: https://www.prydwen.gg/wuthering-waves/
+          icon: si:webtrees
+        - title: Wuthering.gg
+          url: https://wuthering.gg/
+          icon: si:webtrees
+        - title: Hakush.in
+          url: https://ww.hakush.in/
+          icon: si:webtrees
+        - title: WutheringLab.gg
+          url: https://wutheringlab.com/
+          icon: si:webtrees
+    - title: Upscalers / AI generation
+      color: 90 75 30
+      links:
+        - title: DGB.lol
+          url: https://dgb.lol
+          icon: si:d
+        - title: Imgupscaler.com
+          url: https://imgupscaler.com
+          icon: si:indeed
+        - title: Image-upscaling.net
+          url: https://image-upscaling.net/upscaling/en.html
+          icon: si:indeed
+        - title: Sea Art AI Gen
+          url: https://www.seaart.ai/
+          icon: si:seafile
