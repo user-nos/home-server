@@ -41,7 +41,7 @@ A list of all my currently running services will be listed also.
 - QBitttorent
 - Glance
 - Beszel
-- Frigate
+- Immich
 - Speedtest Tracker
 - YTPTube
 - IT-Tools
