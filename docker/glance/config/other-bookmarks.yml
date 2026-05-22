@@ -1,0 +1,16 @@
+- type: bookmarks
+  title: Others
+  groups:
+    - title: Patreon
+      color: 65 75 30
+      links:
+        - title: Hana
+          url: https://www.patreon.com/
+          icon: si:honey
+    - title: Twitter / X
+      color: 165 75 30
+      links:
+        - title: ABC
+          url: https://x.com/ABC
+          icon: si:akasaair
+        
