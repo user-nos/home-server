@@ -60,12 +60,6 @@
         - title: X
           url: https://x.com
           icon: si:x
-        - title: Fansly
-          url: https://fansly.com
-          icon: si:fandango
-        - title: Fantia
-          url: https://fantia.jp
-          icon: si:fanfou
         - title: Discord
           url: https://discord.com/channels/@me
           icon: si:discord
