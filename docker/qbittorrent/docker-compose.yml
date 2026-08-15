@@ -20,9 +20,8 @@ services:
 
 
   qbittorrent:
-    image: lscr.io/linuxserver/qbittorrent:latest
+    image: lscr.io/linuxserver/qbittorrent:libtorrentv1
     container_name: qbittorrent
-    # network_mode: "service:gluetun"
     ports:
       - 8080:8080       #qbittorrent webUI
       - 6881:6881       #qbittorrent
@@ -34,7 +33,27 @@ services:
       - WEBUI_PORT=8080
       - TORRENTING_PORT=6881
     volumes:
-      - /home/nos/nas/docker/qbittorrent/config:/config
-      - /home/nos/nas/downloads:/downloads
-      - /home/nos/nas/docker/qbittorrent/certificates:/certificates
+      - ./config:/config
+      - /home/nos/shared-storage/downloaded:/downloads
+    # Memory limits
+    deploy:
+      resources:
+        limits:
+          memory: 5G        # Hard limit: Container will be killed if it crosses this
+        reservations:
+          memory: 1G        # Soft limit: The minimum RAM allocated to start
+    stop_grace_period: "10s" #optional
+    restart: unless-stopped
+
+  prowlarr:
+    image: lscr.io/linuxserver/prowlarr:latest
+    container_name: prowlarr
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Indian/Mauritius
+    volumes:
+      - /home/nos/shared-storage/docker/prowlarr/config:/config
+    ports:
+      - 9696:9696
     restart: unless-stopped
