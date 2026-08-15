@@ -17,6 +17,7 @@ A list of all my currently running services will be listed also.
   - [Jellyfin : Media Server/Player](https://github.com/user-nos/home-server/wiki/Setting-up-services#jellyfin--media-serverplayer)
   - [Dockge : Docker Management Web UI / Simpler alternative to Portainer](https://github.com/user-nos/home-server/wiki/Setting-up-services#dockge--docker-management-web-ui--simpler-alternative-to-portainer)
   - [QBittorrent](https://github.com/user-nos/home-server/wiki/Setting-up-services#qbittorrent--gluetun-vpn-tunnel-using-free-protonvpn)
+  - [Prowlarr: Torrent Indexer](https://github.com/user-nos/home-server/wiki/Setting-up-services#prowlarr-torrent-indexer)
   - [Uptime-Kuma : Services monitoring](https://github.com/user-nos/home-server/wiki/Setting-up-services#uptime-kuma--services-monitoring)
   - [Filebrowser : Server File Management Web UI](https://github.com/user-nos/home-server/wiki/Setting-up-services#filebrowser--server-file-management-web-ui)
   - [Glance : Server Homepage](https://github.com/user-nos/home-server/wiki/Setting-up-services#glance--server-homepage)
@@ -39,11 +40,11 @@ A list of all my currently running services will be listed also.
 - NPM
 - Jellyfin
 - QBitttorent
+- Prowlarr
 - Glance
 - Beszel
 - Immich
 - Speedtest Tracker
-- YTPTube
 - IT-Tools
 - Ntfy
 - Apprise
